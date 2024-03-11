@@ -3,7 +3,7 @@ export const Navbar = () => {
     <nav className="w-[15%] bg-zinc-50 h-full flex flex-col items-center pt-6">
       <a
         href="/create"
-        className="border-2 border-green-200 px-5 py-1 rounded text-green-300"
+        className="w-[80%] border-2 border-green-200 px-5 py-1 rounded text-green-300"
       >
         Add New Product
       </a>
