@@ -1,11 +1,12 @@
+import { Route, Routes } from "react-router-dom";
 import { Home } from "./components/Home";
-import { Navbar } from "./components/Navbar";
 
 const App = () => {
   return (
     <div className="w-screen h-screen flex">
-      <Navbar />
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 };

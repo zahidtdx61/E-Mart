@@ -1,6 +1,19 @@
+import { Navbar } from "./Navbar";
+import ProductCard from "./ProductCard";
 
 export const Home = () => {
   return (
-    <div className="w-[85%] h-full bg-red-200">Home</div>
-  )
-}
+    <>
+      <Navbar />
+      <div className="w-[85%] h-fit p-10 pt-[5%] flex flex-wrap">
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+      </div>
+    </>
+  );
+};
